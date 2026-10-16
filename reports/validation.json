@@ -1,0 +1,40 @@
+{
+  "project": "Restful-Booker API tests",
+  "checked_at": "2026-10-16",
+  "static_checks": {
+    "test_case_count": 36,
+    "postman_request_count": 36,
+    "case_ids_unique": true,
+    "request_ids_match_case_ids": true,
+    "collection_json_parseable": true,
+    "environment_json_parseable": true,
+    "javascript_syntax_checked": true,
+    "javascript_script_count": 37,
+    "test_workbook_reopened": true,
+    "bug_report_workbook_reopened": true,
+    "zip_packages_valid": true,
+    "postman_folders": [
+      "Authentication",
+      "Create booking",
+      "Search by parameters",
+      "Read booking",
+      "Replace booking (PUT)",
+      "Partial update (PATCH)",
+      "Delete booking",
+      "Health check"
+    ],
+    "all_requests_have_tests": true,
+    "workbook_ids_match_request_ids": true
+  },
+  "live_api": {
+    "status": "not completed",
+    "attempt": "GET https://restful-booker.herokuapp.com/ping via curl",
+    "result": "curl exit code 6: Could not resolve host; no HTTP response was received.",
+    "checked_at": "2026-10-16"
+  },
+  "findings": {
+    "documentation_findings": 4,
+    "confirmed_runtime_api_bugs": 0,
+    "note": "No runtime test result is claimed until the suite is run against the service."
+  }
+}
