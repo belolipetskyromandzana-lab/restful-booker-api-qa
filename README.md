@@ -57,17 +57,13 @@ For DELETE and `/ping`, the collection accepts either `200` or `201` until the e
 
 The collection and its JavaScript were checked locally for structure and syntax. A live run has **not** been completed from the build environment: the request to `restful-booker.herokuapp.com` failed during DNS resolution. Runtime results therefore remain unverified and the test cases start with status `Not run`.
 
-## Publish to GitHub
+## Repository
 
-Create an empty repository on GitHub, then run these commands from this directory:
+This project is published at https://github.com/belolipetskyromandzana-lab/restful-booker-api-qa.
+
+Clone the repository with:
 
 ```bash
-git init -b main
-git add README.md .gitignore test-cases.xlsx bug-reports.xlsx postman reports
-git status
-git commit -m "Add Restful-Booker API tests"
-git remote add origin https://github.com/<username>/restful-booker-api-qa.git
-git push -u origin main
+git clone https://github.com/belolipetskyromandzana-lab/restful-booker-api-qa.git
+cd restful-booker-api-qa
 ```
-
-Replace `<username>` with the account that owns the repository. Review `git status` before committing so that only the intended project files are included.
