@@ -35,6 +35,16 @@
   "findings": {
     "documentation_findings": 4,
     "confirmed_runtime_api_bugs": 0,
-    "note": "No runtime test result is claimed until the suite is run against the service."
+    "note": "The 2026-10-16 DNS connectivity attempt is historical. A Newman run was completed on 2026-10-21; see newman_run for its summary. Failed assertions are not automatically confirmed API defects."
+  },
+  "newman_run": {
+    "status": "completed_with_assertion_failures",
+    "checked_at": "2026-10-21",
+    "request_total": 36,
+    "request_execution_errors": 0,
+    "assertions_failed": 8,
+    "test_cases_with_failures": 7,
+    "report": "reports/newman-latest.json",
+    "note": "Failed assertions require investigation and are not, by themselves, confirmed API defects."
   }
 }

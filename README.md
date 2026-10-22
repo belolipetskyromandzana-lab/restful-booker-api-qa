@@ -55,7 +55,9 @@ For DELETE and `/ping`, the collection accepts either `200` or `201` until the e
 
 ## Execution status
 
-The collection and its JavaScript were checked locally for structure and syntax. A live run has **not** been completed from the build environment: the request to `restful-booker.herokuapp.com` failed during DNS resolution. Runtime results therefore remain unverified and the test cases start with status `Not run`.
+The collection and its JavaScript were checked locally for structure and syntax. A Newman run against the demo API was performed on 2026-10-21. All 36 requests completed without request execution errors, but 8 assertions failed across 7 test cases. These failures require investigation and are not, by themselves, proof of confirmed API defects. Results may also be affected by the behavior of the public demo service and its shared test data.
+
+The detailed Newman report (`reports/newman-latest.json`) is kept locally and excluded from Git because it contains environment values and response bodies. `reports/validation.json` retains the result of an earlier connectivity attempt on 2026-10-16, when DNS resolution failed; it does not represent the latest live test run.
 
 ## Repository
 
