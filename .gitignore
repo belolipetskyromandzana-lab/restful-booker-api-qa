@@ -9,3 +9,5 @@ npm-debug.log*
 # Local Newman reports may contain environment values and response bodies
 reports/newman-latest.json
 reports/newman-*.json
+.venv/
+test-cases.before-results.xlsx
